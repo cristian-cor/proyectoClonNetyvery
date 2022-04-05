@@ -20,3 +20,7 @@ background-color: black;
 .carousel-control-next span{
 background-color: black;
 }
+
+@media (max-width: 584px) {
+  
+}

@@ -1,9 +1,12 @@
 
 import React from 'react'
+import ToggleMenu from '../toggleMenu/ToggleMenu'
 //estilos
 import './Header.css'
 
 const Header = () => {
+
+ 
     return (
         <>
             <div className='container_header'>
@@ -21,6 +24,7 @@ const Header = () => {
                     </nav>
                 </section>
             </div>
+            <ToggleMenu/>
         </>
     )
 }

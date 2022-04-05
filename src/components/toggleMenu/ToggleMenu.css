@@ -1,0 +1,17 @@
+
+.section_menu{
+    padding: 20px;
+}
+.section_menu div i{
+    font-size: 43px;
+}
+.section_menu div .fa-align-justify:hover {
+    transform: rotate(50deg);
+    transition: 1s;
+    cursor: pointer;
+}
+@media (min-width: 650px) {
+    .container_toogle{
+        display: none;
+    }
+   }

@@ -7,7 +7,8 @@ const Slider = () => {
             <h2>ENTIDADES Y CONVOCATORIAS</h2>
             <p>Conoce los programas y entidades que nos apoyan</p>
         </div>
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://www.netivery.com/wp-content/uploads/2019/10/mintic.jpg" class="d-block w-100" alt="..." />
@@ -28,6 +29,8 @@ const Slider = () => {
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        </div>
+             
         </>
       
     )
