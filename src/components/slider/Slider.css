@@ -1,0 +1,22 @@
+.carousel{
+width: 100%;
+display: grid;
+place-items: center;
+margin-top: 100px;
+margin-bottom: 200px;
+}
+.carousel-item img{
+width: 100px;
+}
+.carousel-inner{
+width: 25%;
+}
+.carousel-control-prev, .carousel-control-next {
+margin-top: 60px;
+}
+.carousel-control-prev span{
+background-color: black;
+}
+.carousel-control-next span{
+background-color: black;
+}

@@ -1,0 +1,30 @@
+
+.fa-location-dot {
+    font-size: 40px;
+}
+.container_soporte input,button {
+    height: 45px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.fa-triangle-exclamation {
+    font-size: 22px;
+    margin-right: 10px;
+}
+.container_soporte input {
+    width: 300px;
+    outline: none;
+}
+.container_soporte input::placeholder {
+    padding: 5px;
+}
+.container_soporte button {
+    border-radius: 10px;
+    width: 200px;
+    background-color: #7B68EE;
+    color: white;
+}
+.container_soporte button:hover {
+    transform: translateY(5px);
+}
